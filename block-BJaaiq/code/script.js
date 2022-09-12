@@ -1,6 +1,5 @@
 (function() {
     let root = document.querySelector("ul");
-
     const limit = 5;
     const totalQuotes = quotes.length;
     let index = 0;
