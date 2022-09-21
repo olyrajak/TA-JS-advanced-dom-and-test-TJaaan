@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(205, 253, 255);
+}
+
+.notice-display li {
+    border: 1px solid rgb(255, 253, 253);
+    padding: 0.8rem;
+    color: white;
+    margin: 1rem;
+    background-color: rgb(182, 6, 64);
+}
+
+h4 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 46px;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1fr;
+}
+
+form {
+    border: 0.3rem solid olive;
+    padding: 1rem;
+    border-radius: 21px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input,
+button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.8rem auto;
+}
+
+#submit {
+    background-color: rgb(0, 16, 70);
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
