@@ -28,5 +28,5 @@ module.exports = {
     getFullName,
     isPalindrome,
     getCircumference,
-    getArea
+    getArea,
 };
