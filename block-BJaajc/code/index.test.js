@@ -22,8 +22,8 @@ test("'Arya' and 'Stark' to not equal Oly Rajak", () => {
     expect(getFullName("Oly", "Rajak")).not.toBe("Oly Rajak");
 });
 
-test("'Jack' and 'Toe' to not equal John Snow", () => {
-    expect(getFullName("Jack", "Toe")).not.toBe("John Snow");
+test("'Jyoti' and 'Toe' to not equal John Snow", () => {
+    expect(getFullName("Jyoti", "Toe")).not.toBe("John Snow");
 });
 
 test("'Shruti' and 'Kar' to not equal Shruti Kar", () => {
