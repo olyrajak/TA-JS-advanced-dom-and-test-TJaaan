@@ -5,7 +5,7 @@ const {
     getArea,
 } = require("./index");
 
-//Full Name
+//FullName
 test("'Arya' and 'Stark' to equal Arya Stark", () => {
     expect(getFullName("Arya", "Stark")).toBe("Arya Stark");
 });
